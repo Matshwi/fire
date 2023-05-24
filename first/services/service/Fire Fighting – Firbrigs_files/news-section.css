@@ -1,0 +1,149 @@
+
+/** news-section **/
+
+.news-section{
+  position: relative;
+  padding: 110px 0px 120px 0px;
+}
+
+.news-section .sec-title{
+  margin-bottom: 50px;
+}
+
+.news-block-one{
+  position: relative;
+  display: block;
+  background: #f5f0f0;
+  padding: 40px 0px;
+}
+
+.news-block-one .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.news-block-one .image-box .image{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.news-block-one .image-box .image img{
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.news-block-one:hover .image-box .image img{
+  opacity: 0.2;
+  transform: scale(1.1);
+}
+
+.news-block-one .image-box .post-date{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 14px 15px 15px 15px;
+  text-align: center;
+  max-width: 67px;
+  width: 100%;
+  z-index: 1;
+}
+
+.news-block-one .image-box .post-date h4{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.news-block-one .image-box .post-date p{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.news-block-one .content-box{
+  position: relative;
+  padding-right: 40px;
+  margin-top: -11px;
+}
+
+.news-block-one .content-box .post-info li{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.news-block-one .content-box .post-info li:last-child{
+  margin: 0px !important;
+}
+
+.news-block-one .content-box .post-info li a{
+  display: inline-block;
+  color: #706767;
+}
+
+.news-block-one .content-box .post-info li a:hover{
+
+}
+
+.news-block-one .content-box .post-info li i{
+  position: relative;
+  margin-right: 5px;
+}
+
+.news-block-one .content-box .post-info{
+  position: relative;
+  margin-bottom: 11px;
+}
+
+.news-block-one .content-box h2 a{
+  display: inline-block;
+  color: #2d2727;
+}
+
+.news-block-one .content-box h2 a:hover{
+
+}
+
+.news-block-one .content-box p{
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.news-block-one .content-box .link a{
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: #2d2727;
+}
+
+.news-block-one .content-box .link a:hover{
+  color: #fff;
+}
+
+.news-block-one .inner-box .content-box{
+  padding: 28px 40px 40px 40px;
+  margin: 0px;
+}
+
+.news-block-one .inner-box .content-box p{
+  margin-bottom: 20px;
+}
